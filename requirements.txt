@@ -1,0 +1,3 @@
+# Project dependencies will be pinned after compatibility verification.
+# Python version: 3.12.7
+# See docs/environment_setup.md for installation instructions.

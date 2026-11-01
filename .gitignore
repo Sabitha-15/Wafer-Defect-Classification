@@ -1,0 +1,43 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model checkpoints and large files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.pickle
+
+# Experiment outputs
+*.log
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# IDE
+.vscode/
+.idea/
